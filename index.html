@@ -28,10 +28,6 @@
 </head>
 
 <body>
-    <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-
     <!-- Add your site or application content here -->
     <!-- header-start -->
     <header id="home">
@@ -118,7 +114,7 @@
     <!-- slider-start -->
     <div class="slider-area pos-relative">
         <div class="slider-active">
-            <div class="single-slider slider-height d-flex align-items-center justify-content-center" style="background-image: url(img/slider/slider_bg_1.jpg);">
+            <div class="single-slider slider-height d-flex align-items-center justify-content-center" style="background-image: url(images/slider_bg_1.jpg);">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-9 col-md-12">
@@ -131,7 +127,7 @@
                     </div>
                 </div>
             </div>
-            <div class="single-slider slider-height d-flex align-items-center justify-content-center" style="background-image: url(img/slider/2.jpg);">
+            <div class="single-slider slider-height d-flex align-items-center justify-content-center" style="background-image: url(images/2.jpg);">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-8 col-md-12 offset-xl-2">
@@ -144,7 +140,7 @@
                     </div>
                 </div>
             </div>
-            <div class="single-slider slider-height d-flex align-items-center justify-content-center" style="background-image: url(img/slider/3.jpg);">
+            <div class="single-slider slider-height d-flex align-items-center justify-content-center" style="background-image: url(images/3.jpg);">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-9 col-md-12">
@@ -160,13 +156,200 @@
         </div>
     </div>
     <!-- slider-end -->
+
+      <!-- search bar section starts -->
+      <section class="searchSection" id="navbarNavDropdownSearch">
+        <div class="container">
+          <form>
+             
+              <div class="row w-100" style="width: 100%;">
+                <div class="input-field first-wrap col-md-3" data-aos="fade-right" data-aos-offset="300">
+                  <div class="form-floating">
+                      <label class="text-white" for="floatingSelect">Select Category</label>
+                    <select class="custom-select">
+                      <option selected>Select Category</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="input-field  col-md-3" data-aos="fade-right" data-aos-offset="300">
+                  <div class="form-floating">
+                    <label class="text-white" for="floatingSelect">Select Sub Category</label>
+                    <select class="custom-select" id="floatingSelect" aria-label="Floating label select example">
+                      <option selected>Select Sub Category</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                </div>
+  
+                <div class="input-field first-wrap col-md-5" data-aos="fade-right" data-aos-offset="300">
+                  <div class="form-floating">
+                      <label class="text-white"  for="floatingInputGrid">Enter keywords to Search </label>
+                    <input type="text" class="form-control" id="floatingInputGrid" placeholder="Enter keywords to Search">
+                  </div>
+  
+                </div>
+
+                <div class="input-field col-md-1" data-aos="fade-left" data-aos-offset="300">
+                    <label class="text-white"  for="floatingInputGrid">&nbsp;</label>
+                    <button class="btn-search" type="button">
+                      <svg class="svg-inline--fa fa-search fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="search"
+                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="currentColor"
+                          d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z">
+                        </path>
+                      </svg>
+                    </button>
+                  </div>
+              </div> 
+          </form>
+        </div>
+      </section>
+      <!-- search bar section finish -->
+
+     
+       <!-- categories section starts -->
+    <div class="section categories">
+        <div class="container">
+          <div class="row text-center slider">
+            <div class="col-12 ps-0 col-sm-6 col-md-4 col-lg-3 mb-3">
+              <div class="card" data-aos="fade-down" data-aos-duration="1500">
+                <img src="images/download.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <span>
+                    <h5 class="card-title">Science And Technology</h5>
+                    <p class="card-text"><small>over 750 courses</small></p>
+                  </span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-12 ps-0 col-sm-6 col-md-4 col-lg-3 mb-3">
+              <div class="card" data-aos="fade-down" data-aos-duration="1500">
+                <img src="images/download.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <span>
+                    <h5 class="card-title">Humanities</h5>
+                    <p class="card-text"><small>over 750 courses</small></p>
+                  </span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-12 ps-0 col-sm-6 col-md-4 col-lg-3 mb-3">
+              <div class="card" data-aos="fade-down" data-aos-duration="1500">
+                <img src="images/download.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <span>
+                    <h5 class="card-title">Kids Learning</h5>
+                    <p class="card-text"><small>over 750 courses</small></p>
+                  </span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-12 ps-0 col-sm-6 col-md-4 col-lg-3 mb-3">
+              <div class="card" data-aos="fade-down" data-aos-duration="1500">
+                <img src="images/download.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <span>
+                    <h5 class="card-title">Social Science</h5>
+                    <p class="card-text"><small>over 750 courses</small></p>
+                  </span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-12 ps-0 col-sm-6 col-md-4 col-lg-3 mb-3">
+              <div class="card" data-aos="fade-down" data-aos-duration="1500">
+                <img src="images/download.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <span>
+                    <h5 class="card-title">Management</h5>
+                    <p class="card-text"><small>over 750 courses</small></p>
+                  </span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-12 ps-0 col-sm-6 col-md-4 col-lg-3 mb-3">
+              <div class="card" data-aos="fade-down" data-aos-duration="1500">
+                <img src="images/download.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <span>
+                    <h5 class="card-title">Computer Science</h5>
+                    <p class="card-text"><small>over 750 courses</small></p>
+                  </span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-12 ps-0 col-sm-6 col-md-4 col-lg-3 mb-3">
+              <div class="card" data-aos="fade-down" data-aos-duration="1500">
+                <img src="images/download.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <span>
+                    <h5 class="card-title">Medicine And Health</h5>
+                    <p class="card-text"><small>over 750 courses</small></p>
+                  </span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-12 ps-0 col-sm-6 col-md-4 col-lg-3 mb-3">
+              <div class="card" data-aos="fade-down" data-aos-duration="1500">
+                <img src="images/download.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <span>
+                    <h5 class="card-title">Exam Preparation</h5>
+                    <p class="card-text"><small>over 750 courses</small></p>
+                  </span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-12 ps-0 col-sm-6 col-md-4 col-lg-3 mb-3">
+              <div class="card" data-aos="fade-down" data-aos-duration="1500">
+                <img src="images/download.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <span>
+                    <h5 class="card-title">Lifestyle</h5>
+                    <p class="card-text"><small>over 750 courses</small></p>
+                  </span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-12 ps-0 col-sm-6 col-md-4 col-lg-3 mb-3">
+              <div class="card" data-aos="fade-down" data-aos-duration="1500">
+                <img src="images/download.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <span>
+                    <h5 class="card-title">Computer Science Applications</h5>
+                    <p class="card-text"><small>over 750 courses</small></p>
+                  </span>
+                </div>
+              </div>
+            </div>
+  
+          </div>
+  
+  
+        </div>
+      </div>
+      <!-- categories section finish -->
+
     <!-- about start -->
     <div id="about" class="about-area pt-100 pb-70">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-7">
                     <div class="about-title-section mb-30 wow fadeInLeft" data-wow-duration="500ms">
-                        <h1>Welcome To Our Edubary</h1>
+                        <h1>Welcome To Edubary</h1>
                         <p>Sorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod temin cididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerci tation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure repreh nderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occcu idatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                         <p>Horem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod temin cididunt ut labore et dolore magna aliqua Ut enim ad minim veniam,quis nostrude</p>
                         <button class="theme-btn blue-bg-border mt-20"><span class="btn-text">admit now</span></button>
@@ -174,7 +357,7 @@
                 </div>
                 <div class="col-xl-5 col-lg-5">
                     <div class="about-right-img mb-30 wow fadeInRight" data-wow-duration="500ms">
-                        <img src="img/about/about-right.png" alt="">
+                        <img src="images/about-right.png" alt="">
                     </div>
                 </div>
             </div>
@@ -217,7 +400,7 @@
     </div>
     <!-- about end -->
     <!-- courses start -->
-    <div id="courses" class="courses-area courses-bg-height pt-100 pb-70" style="background-image: url(img/courses/courses_bg.png);">
+    <div id="courses" class="courses-area courses-bg-height pt-100 pb-70" style="background-image: url(images/courses_bg.png);">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 col-md-10 offset-md-1">
@@ -236,10 +419,10 @@
                     <div class="col-xl-12 wow fadeInDown" data-delay=".1">
                         <div class="courses-wrapper course-radius-none mb-30">
                             <div class="courses-thumb">
-                                <a href="#"><img src="img/courses/single_courses_thumb_01.jpg" alt=""></a>
+                                <a href="#"><img src="images/single_courses_thumb_01.jpg" alt=""></a>
                             </div>
                             <div class="courses-author">
-                                <img src="img/courses/coursesauthor1.png" alt="">
+                                <img src="images/coursesauthor1.png" alt="">
                             </div>
                             <div class="course-main-content clearfix">
                                 <div class="courses-content">
@@ -276,10 +459,10 @@
                     <div class="col-xl-12 wow fadeInDown" data-delay=".2">
                         <div class="courses-wrapper course-radius-none mb-30">
                             <div class="courses-thumb">
-                                <a href="#"><img src="img/courses/single_courses_thumb_02.jpg" alt=""></a>
+                                <a href="#"><img src="images/single_courses_thumb_02.jpg" alt=""></a>
                             </div>
                             <div class="courses-author">
-                                <img src="img/courses/coursesauthor1.png" alt="">
+                                <img src="images/coursesauthor1.png" alt="">
                             </div>
                             <div class="course-main-content clearfix">
                                 <div class="courses-content">
@@ -316,10 +499,10 @@
                     <div class="col-xl-12 wow fadeInDown" data-delay=".3">
                         <div class="courses-wrapper course-radius-none mb-30">
                             <div class="courses-thumb">
-                                <a href="#"><img src="img/courses/single_courses_thumb_03.jpg" alt=""></a>
+                                <a href="#"><img src="images/single_courses_thumb_03.jpg" alt=""></a>
                             </div>
                             <div class="courses-author">
-                                <img src="img/courses/coursesauthor1.png" alt="">
+                                <img src="images/coursesauthor1.png" alt="">
                             </div>
                             <div class="course-main-content clearfix">
                                 <div class="courses-content">
@@ -356,10 +539,10 @@
                     <div class="col-xl-12 wow fadeInDown" data-delay=".4">
                         <div class="courses-wrapper course-radius-none mb-30">
                             <div class="courses-thumb">
-                                <a href="#"><img src="img/courses/single_courses_thumb_04.jpg" alt=""></a>
+                                <a href="#"><img src="images/single_courses_thumb_04.jpg" alt=""></a>
                             </div>
                             <div class="courses-author">
-                                <img src="img/courses/coursesauthor1.png" alt="">
+                                <img src="images/coursesauthor1.png" alt="">
                             </div>
                             <div class="course-main-content clearfix">
                                 <div class="courses-content">
@@ -418,7 +601,7 @@
                     <div class="col-xl-3 col-lg-3 col-md-6">
                         <div class="team-wrapper mb-30  wow fadeInRight" data-delay=".2">
                             <div class="team-thumb">
-                                <img src="img/team/teammember1.jpg" alt="">
+                                <img src="images/teammember1.jpg" alt="">
                             </div>
                             <div class="team-social-info text-center">
                                 <div class="team-social-para">
@@ -442,7 +625,7 @@
                     <div class="col-xl-3 col-lg-3 col-md-6">
                         <div class="team-wrapper mb-30 wow fadeInRight" data-delay=".4">
                             <div class="team-thumb">
-                                <img src="img/team/teammember2.jpg" alt="">
+                                <img src="images/teammember2.jpg" alt="">
                             </div>
                             <div class="team-social-info text-center">
                                 <div class="team-social-para">
@@ -466,7 +649,7 @@
                     <div class="col-xl-3 col-lg-3 col-md-6">
                         <div class="team-wrapper mb-30  wow fadeInRight" data-delay=".6">
                             <div class="team-thumb">
-                                <img src="img/team/teammember3.jpg" alt="">
+                                <img src="images/teammember3.jpg" alt="">
                             </div>
                             <div class="team-social-info text-center">
                                 <div class="team-social-para">
@@ -490,7 +673,7 @@
                     <div class="col-xl-3 col-lg-3 col-md-6">
                         <div class="team-wrapper mb-30 wow fadeInRight" data-delay=".8">
                             <div class="team-thumb">
-                                <img src="img/team/teammember4.jpg" alt="">
+                                <img src="images/teammember4.jpg" alt="">
                             </div>
                             <div class="team-social-info text-center">
                                 <div class="team-social-para">
@@ -517,7 +700,7 @@
     </div>
     <!-- team end -->
     <!-- events start -->
-    <div id="events" class="events-area events-bg-height pt-100 pb-95" style="background-image: url(img/courses/courses_bg.png)">
+    <div id="events" class="events-area events-bg-height pt-100 pb-95" style="background-image: url(images/courses_bg.png)">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 col-md-10 offset-md-1">
@@ -538,7 +721,7 @@
                             <div class="events-wrapper">
                                 <div class="events-inner d-flex">
                                     <div class="events-thumb">
-                                        <img src="img/events/eventsthumb1.png" alt="">
+                                        <img src="images/eventsthumb1.png" alt="">
                                     </div>
                                     <div class="events-text white-bg">
                                         <div class="event-text-heading mb-20">
@@ -570,7 +753,7 @@
                             <div class="events-wrapper">
                                 <div class="events-inner d-flex">
                                     <div class="events-thumb">
-                                        <img src="img/events/eventsthumb2.png" alt="">
+                                        <img src="images/eventsthumb2.png" alt="">
                                     </div>
                                     <div class="events-text white-bg">
                                         <div class="event-text-heading mb-20">
@@ -604,7 +787,7 @@
                             <div class="events-wrapper">
                                 <div class="events-inner d-flex">
                                     <div class="events-thumb">
-                                        <img src="img/events/eventsthumb3.png" alt="">
+                                        <img src="images/eventsthumb3.png" alt="">
                                     </div>
                                     <div class="events-text white-bg">
                                         <div class="event-text-heading mb-20">
@@ -636,7 +819,7 @@
                             <div class="events-wrapper">
                                 <div class="events-inner d-flex">
                                     <div class="events-thumb">
-                                        <img src="img/events/eventsthumb4.png" alt="">
+                                        <img src="images/eventsthumb1.png" alt="">
                                     </div>
                                     <div class="events-text white-bg">
                                         <div class="event-text-heading mb-20">
@@ -700,7 +883,7 @@
                         <div class="testimonilas-wrapper mb-110 wow fadeInDown" data-animation="fadeInDown" data-delay="0s">
                             <div class="testimonilas-heading d-flex">
                                 <div class="testimonilas-author-thumb">
-                                    <img src="img/testimonials/testimonilas_author_thumb1.png" alt="">
+                                    <img src="images/testimonilas_author_thumb1.png" alt="">
                                 </div>
                                 <div class="testimonilas-author-title">
                                     <h1>Lisa McClanahan</h1>
@@ -725,7 +908,7 @@
                         <div class="testimonilas-wrapper wow fadeInDown" data-animation="fadeInDown" data-delay=".2s">
                             <div class="testimonilas-heading d-flex">
                                 <div class="testimonilas-author-thumb">
-                                    <img src="img/testimonials/testimonilas_author_thumb1.png" alt="">
+                                    <img src="images/testimonilas_author_thumb1.png" alt="">
                                 </div>
                                 <div class="testimonilas-author-title">
                                     <h1>Lisa McClanahan</h1>
@@ -750,7 +933,7 @@
                         <div class="testimonilas-wrapper wow fadeInDown" data-animation="fadeInDown" data-delay=".4s">
                             <div class="testimonilas-heading d-flex">
                                 <div class="testimonilas-author-thumb">
-                                    <img src="img/testimonials/testimonilas_author_thumb2.png" alt="">
+                                    <img src="images/testimonilas_author_thumb2.png" alt="">
                                 </div>
                                 <div class="testimonilas-author-title">
                                     <h1>Trevor J. Angelo</h1>
@@ -775,7 +958,7 @@
                         <div class="testimonilas-wrapper wow fadeInDown" data-animation="fadeInDown" data-delay=".6s">
                             <div class="testimonilas-heading d-flex">
                                 <div class="testimonilas-author-thumb">
-                                    <img src="img/testimonials/testimonilas_author_thumb1.png" alt="">
+                                    <img src="images/testimonilas_author_thumb1.png" alt="">
                                 </div>
                                 <div class="testimonilas-author-title">
                                     <h1>Marquita Brown</h1>
@@ -808,7 +991,7 @@
                 <div class="col-xl-12">
                     <div class="video-wrapper text-center">
                         <div class="video-content">
-                            <a class="popup-video wow fadeInDown" data-animation="fadeInDown" data-delay=".2s" href="https://www.youtube.com/watch?v=i8nLrvcNcrg"><img src="img/video/play_icon.png" alt=""></a>
+                            <a class="popup-video wow fadeInDown" data-animation="fadeInDown" data-delay=".2s" href="https://www.youtube.com/watch?v=i8nLrvcNcrg"><img src="images/play_icon.png" alt=""></a>
                             <span class=" wow fadeInDown" data-animation="fadeInDown" data-delay=".4s">Watch Our Latest Video</span>
                             <p class=" wow fadeInDown" data-animation="fadeInDown" data-delay=".6s" style="color:#fff">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
                         </div>
@@ -824,28 +1007,28 @@
             <div class="row">
                 <div class="col-xl-3 col-lg-3 col-md-3">
                     <div class="couter-wrapper mb-30 text-center wow fadeInRight" data-animation="fadeInRight" data-delay=".2s">
-                        <img src="img/counter/counter_icon1.png" alt="">
+                        <img src="images/counter_icon1.png" alt="">
                         <span class="counter">10532</span>
                         <h3>Satisfied Students</h3>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3">
                     <div class="couter-wrapper mb-30 text-center wow fadeInRight" data-animation="fadeInRight" data-delay=".4s">
-                        <img src="img/counter/counter_icon2.png" alt="">
+                        <img src="images/counter_icon2.png" alt="">
                         <span class="counter">7985</span>
                         <h3>Courses Complated</h3>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3">
                     <div class="couter-wrapper mb-30 text-center wow fadeInRight" data-animation="fadeInRight" data-delay=".6s">
-                        <img src="img/counter/counter_icon3.png" alt="">
+                        <img src="images/counter_icon3.png" alt="">
                         <span class="counter">5382</span>
                         <h3>Satisfied Students</h3>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3">
                     <div class="couter-wrapper mb-30 text-center wow fadeInRight" data-animation="fadeInRight" data-delay=".8s">
-                        <img src="img/counter/counter_icon4.png" alt="">
+                        <img src="images/counter_icon4.png" alt="">
                         <span class="counter">354</span>
                         <h3>Expert Advisors</h3>
                     </div>
@@ -945,7 +1128,7 @@
                                 </div>
                                 <div class="recent-post d-flex mb-25">
                                     <div class="recent-post-thumb">
-                                        <img src="img/post/recent_post1.jpg" alt="">
+                                        <img src="images/post/recent_post1.jpg" alt="">
                                     </div>
                                     <div class="recent-post-text">
                                         <p>Neque porro quisquam est qui dolorem ipsum</p>
@@ -957,7 +1140,7 @@
                                 </div>
                                 <div class="recent-post d-flex">
                                     <div class="recent-post-thumb">
-                                        <img src="img/post/recent_post1.jpg" alt="">
+                                        <img src="images/post/recent_post1.jpg" alt="">
                                     </div>
                                     <div class="recent-post-text">
                                         <p>Neque porro quisquam est qui dolorem ipsum</p>
@@ -1035,6 +1218,9 @@
     <script src="js/jquery.magnific-popup.min.js"></script>
     <!-- <script src="js/plugins.js"></script> -->
     <script src="js/main.js"></script>
+    <style>
+        
+    </style>
 </body>
 
 
