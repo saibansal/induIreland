@@ -2520,8 +2520,10 @@ span.published-time.published-location {
     display: block;
     top: 0;
     bottom: 0;
+    z-index: 2;
 }
-
+.video-area iframe{border:0; width:100%;position: absolute; z-index:1; left: 0; top: 0; height: 100%;}
+.video-area .video-wrapper{position: relative; z-index: 3}
 
 /* 9. counter */
 .couter-wrapper span {
@@ -3255,7 +3257,6 @@ span.opening-date {
     width: 100%;
     background-color: #1F69A9;
     padding: 25px 0;
-    margin-bottom: 70px;
 }
 
 @media only screen and (max-width: 767.98px) {
@@ -3366,12 +3367,20 @@ span.opening-date {
     border: 0;
     padding: 0 20px;
 }
-.categories {float: left; width: 100%; margin-bottom: 50px; padding: 7rem 0; background-color: rgba(0, 0, 0, .05);}
+
+.categories {
+    float: left;
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 7rem 0;
+    background-color: rgba(0, 0, 0, .05);
+}
+
 .categories .slider .card {
     height: 110px;
     overflow: hidden;
     margin: 0px;
-    border-radius: 0;
+    border-radius: 5px;
 }
 
 @media only screen and (max-width: 767.98px) {
@@ -3466,4 +3475,48 @@ span.opening-date {
 .categories .slider.slider-for ul li a img {
     width: 50px;
     display: inline-block;
+}
+
+.course-details-tabs ul li a.nav-link {
+    position: relative;
+    padding: 8px 15px;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 2px;
+    border-radius: 5px;
+    background-color: #13233A;
+    color: #fff;
+}
+
+.course-details-tabs .nav-pills .nav-link:hover {
+    background-color: #fdc800;
+}
+
+.course-details-tabs .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #6980fe;
+    color: #fff;
+}
+
+.course-details-tabs .nav-pills .nav-link:before {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 12px 10px 0 10px;
+    border-color: #6980fe transparent transparent transparent;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.course-details-tabs .nav-pills .nav-link.active:before {
+    content: '';
+}
+@media screen and (min-width:1350px) {
+    .container {
+        max-width: 1350px;
+        width: 100%
+    }
 }
